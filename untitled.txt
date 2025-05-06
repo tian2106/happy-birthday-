@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ucapan Ulang Tahun untuk Widawati</title>
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-color: #f8e1f4;
+      --primary-color: #f5a1c4;
+      --secondary-color: #ffffff;
+      --text-color: #333333;
+    }
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Dancing Script', cursive;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      text-align: center;
+    }
+    header {
+      padding: 2rem 1rem;
+      background-color: var(--secondary-color);
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 3rem;
+      color: var(--primary-color);
+    }
+    .message {
+      margin: 2rem auto;
+      max-width: 600px;
+      background-color: var(--secondary-color);
+      padding: 1.5rem;
+      border-radius: 1rem;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      font-size: 1.5rem;
+      line-height: 1.4;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+      padding: 1rem;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 0.5rem;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+    }
+    footer {
+      margin: 2rem 0;
+    }
+    audio {
+      outline: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Selamat Ulang Tahun, Widawati!</h1>
+  </header>
+
+  <section class="message">
+    <p>Sayangku Widawati,</p>
+    <p>Di hari istimewa ini, ku hendak ucapkan betapa dalamnya cintaku padamu. Semoga kebahagiaan, cinta, dan tawa selalu mewarnai setiap langkahmu. Terima kasih telah hadir di hidupku dan menjadi bunga paling indah di taman hatiku.</p>
+    <p>Selamat ulang tahun, cintaku untuk selamanya.</p>
+  </section>
+
+  <section class="gallery">
+    <!-- Ganti src dengan foto-foto favorit kamu -->
+    <img src="photos/photo1.jpg" alt="Foto Kenangan 1">
+    <img src="photos/photo2.jpg" alt="Foto Kenangan 2">
+    <img src="photos/photo3.jpg" alt="Foto Kenangan 3">
+  </section>
+
+  <footer>
+    <audio controls autoplay loop>
+      <source src="music/bunga_abadi.mp3" type="audio/mpeg">
+      Browser kamu tidak mendukung elemen audio.
+    </audio>
+  </footer>
+</body>
+</html>
